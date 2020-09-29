@@ -1,0 +1,23 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: stretch;
+  height: 100vh;
+  background-color: var(--container-bg);
+  color: var(--light-primary-text);
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+
+  mat-icon {
+    margin-right: 20px;
+  }
+
+  .labs-title {
+    font-size: 42px;
+  }
+}
